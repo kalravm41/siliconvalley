@@ -1,0 +1,44 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^2.7.0",
+    "canvas": "^2.6.1",
+    "expo": "^39.0.5",
+    "expo-camera": "^9.0.0",
+    "expo-face-detector": "^8.3.0",
+    "expo-image-picker": "^9.1.1",
+    "expo-status-bar": "~1.0.2",
+    "face-api.js": "^0.22.2",
+    "face-recognition-react-native": "0.0.9",
+    "firebase": "^8.0.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.4.tar.gz",
+    "react-native-biometrics": "^2.1.4",
+    "react-native-elements": "^3.0.0-alpha.1",
+    "react-native-fingerprint-scanner": "^6.0.0",
+    "react-native-gesture-handler": "^1.8.0",
+    "react-native-image-slider-box": "^1.0.12",
+    "react-native-reanimated": "^1.13.1",
+    "react-native-screens": "^2.14.0",
+    "react-native-web": "~0.13.12",
+    "react-navigation": "^4.4.3",
+    "react-navigation-drawer": "^2.6.0",
+    "react-webcam": "^5.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.9.0"
+  },
+  "android": {
+    "package": "com.TrinityCorporation.AStepTowardsLife",
+    "versionCode": 1
+  },
+  "private": true
+}
